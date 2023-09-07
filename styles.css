@@ -1,0 +1,457 @@
+body, html {
+    background-color: #000000;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+ul{
+    padding-top: 3%;
+    list-style: none;
+    text-align: end;
+    padding-right: 5%;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+hr {
+    width: 40%;
+    border-color:#F9E0BB;
+    margin-bottom: 40px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+header{
+    background-image: url('./images/ricardo-resende-Vq3B58_XgjQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    back
+}
+
+
+/* Introduction styles */ 
+
+.intro-outer {
+    display: inline-block;
+}
+
+
+.introduction {
+   display: table-cell;
+   vertical-align: middle;
+   padding-left: 40%;
+   height: 600px;
+   width: 800px;
+}
+
+.introduction h1 {
+    color: #FFC26F;
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif; 
+    letter-spacing: 1px;
+
+}
+
+.introduction p {
+    font-size: 1.2em;
+    color: #F9E0BB;
+}
+
+.contact {
+    font-size: 1.1em;
+    color: #F9E0BB;
+    text-transform: uppercase;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: #8FC1D4;
+    text-decoration-thickness: 2px ;
+    text-underline-offset: 1rem;
+}
+
+.img-of-me {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    padding-left: 15%;
+    padding-top: 100px;
+
+}
+
+.img-of-me img {
+    height: auto;
+    width: 500px;
+    border: 6px solid white;
+
+}
+
+.upper-img {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    padding-top: 6%;
+}
+
+
+/* Skills styles */
+
+
+.skills {
+    padding-top: 15%;
+    text-align: center;
+    align-items: center;
+}
+
+.current-skills{
+    color: #F9E0BB;
+    padding-top: 5%;
+
+}
+
+
+.flex-container {
+
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: center;
+
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    width: 20%;
+    border-radius: 5px;
+    padding: 8px;
+    
+  }
+
+  .item p {
+    color: #e7ac54;
+    font-size: 2.2em;
+    font-family: 'DM Serif Display', serif; 
+    letter-spacing: 1px;
+  }
+
+
+.upper-left-img {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    align-content: end;
+    width: 100%;
+}
+
+.upper-left-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Projects table styles */ 
+
+
+.Projects{
+    margin: auto;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.website  {
+    font-size: 20px;
+} 
+
+.Projects-ear {
+    text-align: center;
+    
+}
+
+.Projects-ear h5{
+color: #F9E0BB;
+font-size: 48px;
+padding: 3%;
+}
+
+
+  .Projects-outer-div {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 550px 450px;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .Visit-view{
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+  .Projects a {
+    font-size: 20px;
+  }
+
+a {
+color: #e7ac54;
+text-decoration: none;
+ font-family: 'DM Serif Display', serif; 
+letter-spacing: 1px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration-color: white;
+
+}
+
+.grid1 {
+    width: 500px;
+} 
+
+.background-pic {
+    border-radius: 10px;
+}
+
+.background-pic-1{
+    height: 300px;
+    background-image: url("./images/Body-Mass-Calculator.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-pic-2 {
+    width: 500px;
+    height: 300px;
+    background-image: url("./images/sunnyside-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-pic-3 {
+    width: 500px;
+    height: 300px;
+    background-image: url("./images/milano-coffee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-pic-4 {
+    width: 500px;
+    height: 300px;
+    background-image: url("./images/parfum-site.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .Projects img {
+    width: 100%;
+    height 250px;
+  }
+
+  .Projects h3 {
+    color:#F9E0BB;
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+.Projects p {
+    color:  #c5ae8c;
+}
+
+
+  .languges {
+    word-spacing: 5px;
+    line-height: 25px;
+  }
+
+
+
+  /* Footer styles */ 
+
+  .Contact-me {
+    display: inline-block;
+    margin-top: 150px;
+    width: 100%;
+    margin: auto;
+    color: #F9E0BB;
+    background-color: #3C2A21;
+    padding: 3%;
+    position: relative;
+    margin-bottom: 5%;
+    background-image: url("./images/courtney-smith-wrLIzVhWCSI-unsplash-darker.jpg");
+  }
+
+  .Invitating-message {
+    display: inline-block;
+    padding-left: 10%;
+    padding-left: 18%;
+  }
+
+#linkedin-address a {
+    color: #F9E0BB;
+    font-family: "";
+    text-decoration: underline;
+  }
+
+  #github-address a{
+    color: #F9E0BB;
+    font-family: "";
+    text-decoration: underline;
+  }
+
+ .Contacts {
+    width: 400px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 10px;
+    position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 25%;
+  margin-bottom: 1%;
+ }
+
+ .Contacts img {
+    width: 25px;
+    height: 25px;
+ }
+
+
+ /*Media queries mobile-view*/
+
+ @media only screen and (min-width: 300px) and (max-width: 650px) {
+
+ul {
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+}
+
+
+.introduction {
+  height: auto;
+  padding-left: 0;
+
+}
+
+.introduction h1 {
+font-size: 2.2em;
+}
+
+.intro-outer {
+  display: block;
+  text-align: center;
+}
+
+.img-of-me {
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  z-index: 0;
+  position: relative;
+  margin: auto;
+  padding-left: 20%;
+}
+
+.img-of-me img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.flex-container > div {
+  width: 100%;
+  padding: 0;
+  gap: 0;
+}
+
+.current-skills {
+  width: 80%;
+  margin: auto;
+}
+
+
+.Projects {
+  width: 100%;
+}
+
+.Projects-outer-div {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 500px 500px);
+  width: 100%;
+  
+}
+
+.background-pic-1 {
+  width: 400px;
+  margin: auto;
+}
+
+.grid1 {
+  width: 500px;
+}
+
+
+.background-pic-2 {
+  width: 400px;
+  margin: auto;
+}
+
+.background-pic-3 {
+  width: 400px;
+  margin: auto;
+}
+
+.background-pic-4 {
+  width: 400px; 
+  margin: auto;
+}
+
+.Invitating-message {
+  display: block;
+text-align: center;
+padding-left: 0;
+margin: auto;
+padding-bottom: 30px;
+}
+
+.Contacts {
+  position: relative;
+  display: grid;
+  text-align: center;
+  margin-top: 100px;
+  margin: auto;
+}

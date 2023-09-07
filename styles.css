@@ -415,8 +415,13 @@ font-size: 2.2em;
   
 }
 
-.background-pic-1 {
-  width: 400px;
+.background-pic {
+  max-width: 350px;
+  margin: auto;
+}
+
+/*.background-pic-1 {
+  width: 350px;
   margin: auto;
 }
 
@@ -435,7 +440,7 @@ font-size: 2.2em;
 .background-pic-4 {
   width: 400px; 
   margin: auto;
-}
+} */
 
 .Invitating-message {
   display: block;

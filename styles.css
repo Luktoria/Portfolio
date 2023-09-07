@@ -378,7 +378,6 @@ font-size: 2.2em;
   z-index: 0;
   position: relative;
   margin: auto;
-  padding-left: 20%;
 }
 
 .img-of-me img {
@@ -411,12 +410,12 @@ font-size: 2.2em;
   display: inline-grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(2, 500px 500px);
-  width: 100%;
+  width: 95%;
   
 }
 
 .background-pic {
-  max-width: 350px;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -439,4 +438,5 @@ padding-bottom: 30px;
   text-align: center;
   margin-top: 100px;
   margin: auto;
+  width: 95%;
 }

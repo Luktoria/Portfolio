@@ -234,10 +234,12 @@ a:hover {
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .background-pic-1{
     background-image: url("./images/parfum-site.png");
+    
 }
 
 .background-pic-2 {
@@ -258,6 +260,12 @@ a:hover {
 
 .background-pic-6 {
   background-image: url("./images/Ecommerce-website.png");
+  background-position: center;
+}
+
+.background-pic-7 {
+  background-image: url("./images/Clock-app-screenshot.png");
+  background-position: center;
 }
 
   .Projects img {

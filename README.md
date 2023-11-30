@@ -10,7 +10,7 @@ Portfolio to keep track of my projects
 
 ### Links
 
-- Live Site URL: [Viktória Lukács portfolio website] (https://luktoria.github.io/Portfolio/)
+- Live Site URL: (https://luktoria.github.io/Portfolio/)
 
 ### Continued development
 
